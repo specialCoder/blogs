@@ -15,8 +15,7 @@ module.exports = {
     },
     plugins:[
         new HtmlWebpackPlugin({
-            title:'动手实现前端路由系统',
-            filename:'./index.html',
+            filename:'index.html',
             template:'./src/index.html',
         }),
         new CleanWebpackPlugin()
